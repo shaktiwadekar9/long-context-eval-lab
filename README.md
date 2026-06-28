@@ -89,7 +89,26 @@ ollama pull hf.co/bartowski/Qwen2.5-7B-Instruct-1M-GGUF:Q4_K_M
 ## 1M context models with ollama: A list
 
 ```bash
-"hf.co/bartowski/Qwen2.5-7B-Instruct-1M-GGUF:Q4_K_M"
+# 1. Qwen2.5-14B-Instruct-1M
+ollama pull hf.co/bartowski/Qwen2.5-14B-Instruct-1M-GGUF:Q4_K_M
+
+# 2. Qwen3.5-4B
+ollama pull qwen3.5:4b
+
+# 3. Qwen3.5-9B
+ollama pull qwen3.5:9b
+
+# 4. GLM4-9B-Chat-1M-HF
+ollama pull hf.co/second-state/glm-4-9b-chat-1m-GGUF:Q4_K_M
+
+# 5. Llama-3-8B-Instruct-Gradient-1048k
+ollama pull llama3-gradient:8b-instruct-1048k-q4_K_M
+
+# 6. LWM-Text-Chat-1M
+ollama pull hf.co/mradermacher/LWM-Text-Chat-1M-i1-GGUF:Q4_K_M
+
+# 7. Dolphin-2.9-Llama3-8B-1M
+ollama pull hf.co/bartowski/dolphin-2.9-llama3-8b-1m-GGUF:Q4_K_M
 ```
 
 You can use any Ollama model that fits your machine.
